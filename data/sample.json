@@ -1,0 +1,17 @@
+[
+  {
+    "wallet": "0xabc",
+    "token": "PEPE",
+    "value_usd": 25000
+  },
+  {
+    "wallet": "0xdef",
+    "token": "ETH",
+    "value_usd": 5000
+  },
+  {
+    "wallet": "0xghi",
+    "token": "PEPE",
+    "value_usd": 18000
+  }
+]

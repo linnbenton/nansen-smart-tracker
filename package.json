@@ -1,0 +1,10 @@
+{
+  "name": "nansen-smart-tracker",
+  "version": "1.0.0",
+  "description": "Smart money tracker using Nansen CLI",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}

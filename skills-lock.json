@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "skills": {
+    "nansen-smart-alerts": {
+      "source": "nansen-ai/nansen-cli",
+      "sourceType": "github",
+      "computedHash": "f78e94823940046473ee3929678cfceb38daccb7029d1d19bc921d2dc267daa0"
+    },
+    "nansen-smart-money-alpha": {
+      "source": "nansen-ai/nansen-cli",
+      "sourceType": "github",
+      "computedHash": "7b4f9411bc8f9b8bc88be6415fdf087ecc89f8045f8fb0225f726b61825b0cb5"
+    },
+    "nansen-smart-money-tracker": {
+      "source": "nansen-ai/nansen-cli",
+      "sourceType": "github",
+      "computedHash": "68ad44fa095d5adafecd6171288b5ec1e3fa6938a0d7fa94c985e47bf634af25"
+    },
+    "nansen-token-screener": {
+      "source": "nansen-ai/nansen-cli",
+      "sourceType": "github",
+      "computedHash": "913be04400124b1695e3b39746214ace2b2dd39b2032808ae12423edaab839be"
+    },
+    "nansen-wallet-profiler": {
+      "source": "nansen-ai/nansen-cli",
+      "sourceType": "github",
+      "computedHash": "cbfbca17484be3cc791562d62d8af6828add3385f816504fcd86eadd34fd6894"
+    }
+  }
+}
