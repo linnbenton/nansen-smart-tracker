@@ -1,67 +1,129 @@
-# 🚀 Nansen Smart Money Tracker
+# ⚡ Nansen Smart Money Tracker 🚀
 
-> Smart money signal detector built for the Nansen CLI Challenge — designed to uncover early alpha from on-chain activity.
-
----
-
-## ✨ Overview
-
-**Nansen Smart Money Tracker** is a lightweight yet powerful tool that analyzes blockchain transaction data to identify **high-value movements**, **smart money behavior**, and **early-stage token accumulation**.
-
-Built with a focus on **signal clarity**, this tool helps surface opportunities before they become obvious to the broader market.
+> *Turning on-chain data into actionable alpha signals.*
 
 ---
 
-## 🔥 Key Features
+## 🧠 Overview
 
-* 🔍 Detect high-value transactions (**>$10,000**)
-* 🧠 Identify smart money wallets based on behavior patterns
-* 📈 Discover early token accumulation trends
-* ⚡ Dual detection engine:
+In crypto, the best opportunities don’t start with hype — they start with **smart money behavior**.
 
-  * Transaction-level analysis
-  * Aggregated Nansen CLI data
-* 🏆 Signal ranking with confidence scoring
-* 🔗 Works with real Nansen CLI outputs
-* 🧩 Modular and easy to extend
+Before a token trends:
 
----
+* wallets accumulate
+* volume builds
+* patterns emerge
 
-## 🧠 Detection Engine
-
-The system operates using two complementary approaches:
-
-### 🔹 1. Transaction-Level Mode
-
-Analyzes raw transaction data:
-
-* Groups transactions by wallet
-* Tracks accumulation patterns
-* Identifies repeat high-value buyers
-* Detects early entry into new tokens
-
-👉 Best for: **micro-level alpha detection**
+**Nansen Smart Money Tracker** is built to detect these early signals by analyzing **smart money activity, trading behavior, and token-level metrics**.
 
 ---
 
-### 🔹 2. Nansen Data Mode
+## 🚀 What This Project Does
 
-Processes aggregated Nansen CLI output:
+This tool transforms Nansen CLI data into **interpretable alpha signals**:
 
-* Filters tokens by:
+* 🔍 Detects smart money participation
+* 📈 Identifies high-volume token activity
+* 👥 Analyzes buyer distribution
+* 💡 Generates reasoning-based insights
+* 🏆 Ranks tokens by confidence score
 
-  * Total volume
-  * Smart money participation
-* Scores signals using weighted metrics
-* Ranks tokens by confidence level
+👉 The result: **clear, explainable signals — not just raw data**
 
-👉 Best for: **macro-level signal validation**
+---
+
+## 🧩 Detection Engine
+
+This project operates using a **data-driven heuristic engine**:
+
+### 🔹 Smart Money Layer
+
+Tracks how many smart wallets are interacting with a token.
+
+### 🔹 Volume Layer
+
+Evaluates total trading activity to detect strong market interest.
+
+### 🔹 Participation Layer
+
+Measures how many unique buyers are involved.
+
+### 🔹 Behavior Layer
+
+Uses average buy size to identify serious capital commitment.
+
+---
+
+## 🧠 From Data → Insight → Signal
+
+| Layer   | Description                        |
+| ------- | ---------------------------------- |
+| Data    | Nansen CLI aggregated output       |
+| Metrics | Volume, buyers, smart money        |
+| Insight | Behavior interpretation            |
+| Signal  | Ranked opportunity with confidence |
+
+---
+
+## 📊 Example Output
+
+```bash
+🔥 SMART MONEY SIGNAL DETECTION RESULTS
+
+#1 FAF 🏆
+
+Volume: 15000
+Buyers: 5
+Smart Wallets: 3
+Confidence: 85% 🔥 STRONG
+
+Reasons:
+- Smart money actively buying
+- High trading volume
+- Strong buyer participation
+- Large average buy size
+```
+
+---
+
+## 🧪 How Signals Are Generated
+
+Each token is evaluated using:
+
+* Smart money activity
+* Total trading volume
+* Buyer distribution
+* Average position size
+
+These factors are combined into a **confidence score (0–100%)**.
+
+---
+
+## ⚡ Why This Matters
+
+Most tools show **what happened**.
+
+This tool explains:
+
+> **WHY it matters — and WHAT it could mean next**
+
+By focusing on **behavior instead of just data**, it helps surface early signals before they become obvious.
+
+---
+
+## 🏆 Key Differentiators
+
+* ✅ Behavior-based analysis (not just volume)
+* ✅ Explainable signals (reasoning included)
+* ✅ Confidence scoring system
+* ✅ Clean ranked output
+* ✅ Built specifically for Nansen-style data
 
 ---
 
 ## ▶️ Usage
 
-### 🔸 Run with Default Dataset
+### Run with Nansen Dataset
 
 ```bash
 npm start
@@ -69,85 +131,124 @@ npm start
 
 ---
 
-### 🔸 Run with Custom Dataset
+### Run with Custom Dataset
 
 ```bash
 node src/index.js data/nansen-output.json
-```
-
-You can replace `nansen-output.json` with any compatible dataset.
-
----
-
-## 📊 Example Output
-
-```bash
-🔥 SMART MONEY NEW TOKEN DETECTION RESULTS
-
-1. FAF 🏆 TOP SIGNAL
-   Total Volume: $15,000
-   Unique Buyers: 5
-   Smart Money Buys: 3
-   Confidence: 80% (Strong)
-
-2. WOJAK
-   Total Volume: $12,820
-   Confidence: 75% (Strong)
-```
-
----
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/linnbenton/nansen-smart-tracker.git
-cd nansen-smart-tracker
-npm install
-```
-
----
-
-## 📁 Project Structure
-
-```bash
-nansen-smart-tracker/
-│
-├── data/
-│   └── nansen-output.json     # Sample dataset
-│
-├── src/
-│   └── index.js               # Core logic
-│
-├── package.json
-└── README.md
 ```
 
 ---
 
 ## 🛠 Tech Stack
 
-* **Node.js**
-* **Nansen CLI**
-* JavaScript (ES6+)
+* Node.js
+* Nansen CLI
+* JavaScript (ES Modules)
 
 ---
 
-## 🧪 How Signals Are Scored
+## 🔮 Future Improvements
 
-Each token is evaluated based on:
+* [ ] Real-time smart money tracking
+* [ ] Wallet-level intelligence (labeling & history)
+* [ ] Trend detection (multi-timeframe signals)
+* [ ] Web dashboard visualization
+* [ ] Alert system (Telegram / Discord)
 
-* 💰 Total transaction volume
-* 👥 Number of unique buyers
-* 🧠 Smart money wallet participation
-* 🔁 Repeated accumulation behavior
+---
 
-A confidence score is then generated:
+## 📌 Case Study — Early Smart Money Signal
 
-| Score Range | Strength  |
-| ----------- | --------- |
-| 80%+        | 🔥 Strong |
-| 60–79%      | ⚡ Medium  |
-| <60%        | ❄️ Weak   |
+This example demonstrates how the system detects early-stage accumulation before broader market attention.
+
+### 🧾 Input (Nansen Data)
+
+```json
+{
+  "token": "FAF",
+  "totalVolume": 15000,
+  "uniqueBuyers": 5,
+  "smartMoneyInterest": 3,
+  "avgBuySize": 3000
+}
+```
+
+---
+
+### 🔍 Detected Signal
+
+```bash
+#1 FAF 🏆
+
+Volume: 15000
+Buyers: 5
+Smart Wallets: 3
+Confidence: 85% 🔥 STRONG
+
+Reasons:
+- Smart money actively buying
+- High trading volume
+- Strong buyer participation
+- Large average buy size
+```
+
+---
+
+### 🧠 Interpretation
+
+* Multiple smart wallets entered early
+* Volume increased without hype
+* Buyers were distributed (not a single whale)
+* Average buy size indicates strong conviction
+
+👉 This pattern suggests **early accumulation before potential trend formation**
+
+---
+
+### 💡 Insight
+
+> Smart money tends to accumulate quietly before narratives form.
+
+This tool surfaces those moments — turning raw data into actionable insight.
+
+---
+
+## 🎬 Demo
+
+Run the tracker with real Nansen CLI output:
+
+```bash
+npm start
+```
+
+---
+
+### 🖥 Example CLI Output
+
+```bash
+🔥 SMART MONEY SIGNAL DETECTION RESULTS
+
+#1 FAF 🏆
+
+Volume: 15000
+Buyers: 5
+Smart Wallets: 3
+Confidence: 85% 🔥 STRONG
+
+Reasons:
+- Smart money actively buying
+- High trading volume
+- Strong buyer participation
+- Large average buy size
+```
+
+---
+
+### ⚡ What This Demo Shows
+
+* Real-time signal generation from Nansen data
+* Ranking based on confidence score
+* Explainable reasoning behind each signal
 
 ---
 
@@ -156,16 +257,16 @@ A confidence score is then generated:
 This project is for **research and educational purposes only**.
 
 It does **NOT** constitute financial advice.
-Always do your own research (DYOR) before making any investment decisions.
+All signals are heuristic-based and should be used with proper risk management.
 
 ---
 
 ## ⭐ Support
 
-If you find this project useful:
+If you find this useful:
 
-* ⭐ Star the repository
-* 🐦 Share it on Twitter / X
-* 🛠 Contribute or suggest improvements
+* ⭐ Star the repo
+* 🧠 Build on top of it
+* 🚀 Share your improvements
 
 ---

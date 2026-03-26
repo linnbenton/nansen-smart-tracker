@@ -1,0 +1,8 @@
+Executed Nansen CLI queries:
+
+- token screener (solana, 24h)
+- token screener (solana, 7d)
+- token screener (ethereum, 24h)
+- repeated queries for analysis
+
+Total executions: 10+
