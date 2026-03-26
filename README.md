@@ -2,7 +2,7 @@
 
 A smart money signal detector built for the Nansen CLI Challenge.
 
-This tool identifies high-value transactions and surfaces early alpha signals based on smart money behavior.
+This tool analyzes on-chain activity to detect high-value transactions and surface early alpha signals based on smart money behavior.
 
 ---
 
@@ -11,14 +11,31 @@ This tool identifies high-value transactions and surfaces early alpha signals ba
 - Detects high-value transactions (> $10k)
 - Identifies smart money accumulation patterns
 - Highlights potential trending tokens
-- Supports custom input datasets
+- Supports both simulated and real Nansen data
+- Dual-mode detection (transaction-level + aggregated data)
+
+---
+
+## 🧠 How It Works
+
+This project uses two detection modes:
+
+### 🔹 Transaction-Level Mode
+- Groups transactions by wallet
+- Identifies smart money wallets based on behavior
+- Detects new tokens with strong accumulation patterns
+
+### 🔹 Nansen Data Mode
+- Uses aggregated data from Nansen CLI
+- Filters tokens by volume and smart money activity
+- Generates confidence-based signals
 
 ---
 
 ## 🛠 Tech Stack
 
 - Node.js
-- Nansen CLI (skills system)
+- Nansen CLI
 
 ---
 
@@ -28,3 +45,9 @@ This tool identifies high-value transactions and surfaces early alpha signals ba
 git clone https://github.com/linnbenton/nansen-smart-tracker.git
 cd nansen-smart-tracker
 npm install
+
+## ⚠️ Disclaimer
+
+This tool is for research and educational purposes only.
+
+It does not constitute financial advice. Always do your own research before making any investment decisions.
