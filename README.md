@@ -1,17 +1,30 @@
 # Nansen Smart Money Tracker
 
-A simple smart money signal detector built for the Nansen CLI Challenge.
+A smart money signal detector built for the Nansen CLI Challenge.
 
-## Features
+This tool identifies high-value transactions and surfaces early alpha signals based on smart money behavior.
+
+---
+
+## 🚀 Features
+
 - Detects high-value transactions (> $10k)
-- Simulates smart money behavior
-- Designed for Nansen CLI integration
+- Identifies smart money accumulation patterns
+- Highlights potential trending tokens
+- Supports custom input datasets
 
-## Tech Stack
+---
+
+## 🛠 Tech Stack
+
 - Node.js
 - Nansen CLI (skills system)
 
-## Usage
+---
+
+## 📦 Installation
 
 ```bash
-npm start
+git clone https://github.com/linnbenton/nansen-smart-tracker.git
+cd nansen-smart-tracker
+npm install
